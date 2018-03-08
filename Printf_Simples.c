@@ -6,12 +6,14 @@ int main(void){
 
     int o = 0;
     char nome[255] = " ";
-    int i = 0;
+    int idade = 0;
+    float dinheiro = 0.00;
     do{
 
     printf("*** Menu ***\n");
-    printf(" 1 - Print seu nome\n");
-    printf(" 2 - Print sua idade\n");
+    printf(" 1 - Print seu nome(String)\n");
+    printf(" 2 - Print sua idade(Int)\n");
+    printf(" 3 - Print dinheiro que possui(Float)");
     printf(" 0 - Sair\n");
 
 
@@ -32,8 +34,14 @@ int main(void){
 
         case 2:
             printf("Digite sua idade: \n");
-            scanf("%d", &i);
-            printf("Sua idade é:  %d \n", i);
+            scanf("%d", &idade);
+            printf("Sua idade é:  %d \n", idade);
+        break;
+
+        case 3:
+            printf("Quantos reais você tem ?\n");
+            scanf("%f", &dinheiro);
+            printf("Você possui %.2f\n", dinheiro);
         break;
     }
 
