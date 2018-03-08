@@ -48,4 +48,5 @@ int main(void){
 
     }while(o);
 
+    system("PAUSE");
 }
