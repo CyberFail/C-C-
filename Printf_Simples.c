@@ -4,35 +4,36 @@
 
 int main(void){
 
-    int o;
+    int o = 0;
+    char nome[255] = " ";
+    int i = 0;
     do{
 
     printf("*** Menu ***\n");
     printf(" 1 - Print seu nome\n");
-    printf(" 2 - Print sua idade");
+    printf(" 2 - Print sua idade\n");
     printf(" 0 - Sair\n");
 
 
     printf("Digite sua opção: ");
-    scanf("%d", o);
+    scanf("%d", &o);
 
     switch(o){
         case 0:
-            printf("Saindo...");
-            print("clear")
+            printf("Saindo...\n");
+            printf("clear");
         break;
 
         case 1:
-            char nome;
             printf("Digite seu nome: \n");
-            scanf("%c", nome);
-            printf("Bem vindo" + nome);
+            scanf("%s", nome);
+            printf("Bem vindo %s \n", nome);
         break;
 
         case 2:
-            int i;
             printf("Digite sua idade: \n");
-            scanf("%d", i);
+            scanf("%d", &i);
+            printf("Sua idade é:  %d \n", i);
         break;
     }
 
