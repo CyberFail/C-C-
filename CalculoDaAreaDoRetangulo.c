@@ -8,7 +8,7 @@ int main (void){
 
     int o = 0;
     do{
-
+        //Menu
         printf("**************** Menu ****************\n");
         printf(" 1 - Calcular área do retangulo\n");
         printf(" 2 - Calcular área do triangulo\n");
