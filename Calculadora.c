@@ -19,11 +19,7 @@ int main(void){
         scanf("%d", &op);
 
         switch(op){
-            case 0:
-               printf("Saindo do sistema...");
-               printf("Tchauuu!");
-            break;
-
+        
             case 1:
                 //Iniciando com uma frase indicativa ao usuario
                 printf("Digite os numeros que deseja soma!\n");

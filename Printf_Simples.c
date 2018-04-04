@@ -23,11 +23,7 @@ int main(void){
     scanf("%d", &o);
 
     switch(o){
-        case 0:
-            //Saindo do programa
-            printf("Saindo...\n");
-            printf("clear");
-        break;
+        
 
         case 1:
             //Printando STRING

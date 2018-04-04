@@ -18,11 +18,7 @@ int main (void){
         printf("Escolha uma das opções: ");
         scanf("%d", &o);
         switch(o){
-            case 0:
-                printf("Saindo do sistema...");
-                printf("clear");
-            break;
-
+           
             case 1:
                 printf("Vamos calcular a área do retangulo!\n");
                 printf("Digite a altura do retangulo: \n");
