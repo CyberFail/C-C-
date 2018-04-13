@@ -20,9 +20,14 @@ int main (void){
         switch(o){
            
             case 1:
+                //Calculando o retangulo
                 printf("Vamos calcular a área do retangulo!\n");
+
+                //Pegando altura
                 printf("Digite a altura do retangulo: \n");
                 scanf("%f", &a);
+
+                //Pegando a largura
                 printf("Digite a largura do retangulo: \n");
                 scanf("%f", &b);
 
@@ -37,12 +42,16 @@ int main (void){
             break;
 
             case 2:
+                //Calculando o triangulo
                 printf("Vamos calcular a area do triangulo!\n");
+
+                //Pegando a altura
                 printf("Digite o valor da altura do triangulo: \n");
                 scanf("%f", &a);
+
+                //Pegando a largura
                 printf("Digite o valor da largura do triangulo: \n\n");
                 scanf("%f", &b);
-                printf("\n");
 
                 //Calculando a area do triangulo!!
                 soma = (a * b) / 2;
@@ -53,10 +62,12 @@ int main (void){
             break;
             
             case 3:
+                //Calculando o circulo
                 printf("Vamos calcular a area do circulo!\n");
+
+                //Pegando o raio
                 printf("Digite o valor do raio do circulo\n");
                 scanf("%f", &a);
-                printf("\n");
 
                 //Calculando a area do circulo!!
                 soma = a * 3.14;
