@@ -14,7 +14,7 @@ int main (){
 
     do{
         printf("********* MENU *********\n");
-        printf(" 1 - Calcular numeros entre 1000 e 2000 com resto 5\n");
+        printf(" 1 - Calcular Idade das pessoas\n");
         printf(" 0 - Sair\n");
 
         scanf("%d", &o);
