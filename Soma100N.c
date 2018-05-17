@@ -18,7 +18,7 @@ int main(){
         case 1:
             printf("Calculando a soma dos 100 primeiros numeros");
             for(int i = 0; i<=100; i++){
-                res = i + i;
+                res += i;
                 printf("O valor é %d\n", res);
             }
         break;
@@ -29,7 +29,7 @@ int main(){
             scanf("%d", &val_user);
             printf("Calculando a soma dos numeros");
             for(int i = 0; i<=val_user; i++){
-                res = i + i;
+                res += i ;
                 printf("O valor é %d\n", res);
             }
         break;
